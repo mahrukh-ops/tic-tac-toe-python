@@ -6,12 +6,13 @@ board = [ " " for _ in range(9)]
 
 def print_board():
     print()
-    print(board[0] + ":" + board[1] + ":" + board[2])
+    print(board[0] + " | " + board[1] + " | " + board[2])
     print("--+---+--")
-    print(board[3] + ":" + board[4] + ":" + board[5])
+    print(board[3] + " | " + board[4] + " | " + board[5])
     print("--+---+--")
-    print(board[6] + ":" + board[7] + ":" + board[8])
+    print(board[6] + " | " + board[7] + " | " + board[8])
     print()
+
 
 def player_move(player):
     while True:  # Keep asking until the player enters a valid move
